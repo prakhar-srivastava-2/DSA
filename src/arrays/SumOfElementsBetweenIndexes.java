@@ -2,7 +2,7 @@ public class SumOfElementsBetweenIndexes{
     public static void main(String[] args) {
         int[] nums = {2, 4, 6, 8, 10};
         int sum = 0;
-        int out=0;
+        int out;
         int n=3;
         int res[] = new int[nums.length];
         for(int i=0;i<nums.length;i++){
