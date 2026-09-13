@@ -1,3 +1,9 @@
+    //     1
+    //    / \
+    //   2   3
+    //  / \
+    // 4   5
+
 public class SymetricTree{
     public boolean isSymmetric(TreeNode root){
         if(root==null){
