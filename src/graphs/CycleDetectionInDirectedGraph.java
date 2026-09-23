@@ -37,7 +37,7 @@ public class CycleDetectionInDirectedGraph{
                     return true;
                 }
             }
-            else if(visited[neighbour] && hasPath[neighbour]){
+            else if(hasPath[neighbour]){
                 return true;
             }
         }
