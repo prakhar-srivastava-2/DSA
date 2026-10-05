@@ -7,7 +7,6 @@ import java.util.List;
 public class Mixed86{
     public static List<List<String>> groupAnagrams(String[] strs){
         List<List<String>>result = new ArrayList<>();
-        String sorted[] = new String[strs.length];
         HashMap<String,List<String>>map = new HashMap<>();
         if(strs.length==0){
             return result;
